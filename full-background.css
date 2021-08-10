@@ -1,0 +1,42 @@
+#div{
+    position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+#bg img{
+    position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index: 1;
+}
+
+h1{
+    color: whitesmoke;
+    z-index: 2;
+    position: relative;
+    margin-top: 260px;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+button{
+    position: relative;
+    color: #cac5cc;
+    z-index: 2;
+    width: 200px;
+    height: 50px;
+    margin-top: 130px;
+    margin-left: 720px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    font: outline;
+    border-radius: 200px;
+}
